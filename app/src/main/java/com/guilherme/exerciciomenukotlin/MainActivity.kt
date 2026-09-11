@@ -1,4 +1,4 @@
-package com.example.exerciciomenukotlin
+package com.guilherme.exerciciomenukotlin
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

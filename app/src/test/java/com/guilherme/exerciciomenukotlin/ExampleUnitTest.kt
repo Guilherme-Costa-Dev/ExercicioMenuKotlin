@@ -1,4 +1,4 @@
-package com.example.exerciciomenukotlin
+package com.guilherme.exerciciomenukotlin
 
 import org.junit.Test
 

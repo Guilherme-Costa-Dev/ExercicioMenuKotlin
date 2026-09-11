@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ExercicioMenuKotlin</string>
+    <string name="app_name">Trivago</string>
+    <string name="nav_open">Abrindo Menu</string>
+    <string name="nav_cloese">Fechando Menu</string>
 </resources>

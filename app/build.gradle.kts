@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.exerciciomenukotlin"
+    namespace = "com.guilherme.exerciciomenukotlin"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.exerciciomenukotlin"
+        applicationId = "com.guilherme.exerciciomenukotlin"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -30,6 +30,9 @@ android {
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    viewBinding {
+        enable = true
     }
 }
 
