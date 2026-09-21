@@ -7,9 +7,9 @@
         android:icon="@drawable/ichome" />
 
     <item
-        android:id="@+id/bottom_profile"
-        android:title="Perfil"
-        android:icon="@drawable/icprofile" />
+        android:id="@+id/botton_discount"
+        android:title="Descontos"
+        android:icon="@drawable/icdiscount" />
 
     <item
         android:title=""

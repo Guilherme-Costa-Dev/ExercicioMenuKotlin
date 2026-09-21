@@ -18,13 +18,22 @@
             android:layout_height="?attr/actionBarSize"
             android:background="@color/blue"
             android:elevation="4dp"
-            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+            app:titleTextColor="@color/white" />
 
         <!-- Container dos fragments -->
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guilherme Cordeiro Costa"
+            android:textColor="@color/black"
+            android:layout_marginTop="550dp"
+            android:gravity="center"
+            android:textSize="26sp"/>
 
         <!-- BottomAppBar -->
         <com.google.android.material.bottomappbar.BottomAppBar
